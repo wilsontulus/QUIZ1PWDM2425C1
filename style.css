@@ -89,6 +89,10 @@ a {
   float: right;
 }
 
+.logo {
+  border-radius: 50%;
+}
+
 /* Add media queries for responsiveness - when the screen is *px wide or less, stack the links on top of each other */
 @media screen and (max-width: 600px) {
   .header a {
