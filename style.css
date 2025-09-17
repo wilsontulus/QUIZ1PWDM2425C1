@@ -27,19 +27,13 @@ footer {
     margin-top: 200px;
 }
 
-a {
-	color: 867b83;
-	text-decoration: none;
-	padding: 12px;
-}
-
 /* learned straight out of w3schools */
 
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
   background-color: #7daedb;
-  padding: 16px 24px;
+  padding: 8px 24px;
   opacity: 0.8;
   border-radius: 16px;
   margin-left: 8px;
@@ -66,7 +60,7 @@ a {
   font-weight: bold;
 }
 
-/* Change the background color on mouse-over */
+/* Change the background color on cursor-hover */
 .header a:hover {
   background-color: #1a0a0a;
   color: white;
