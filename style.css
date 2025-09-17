@@ -6,12 +6,13 @@ html {
 
 
 body {
-	font:16px Fredoka; 
+	font-size: 12px;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
 	text-align: center;
 	color: #ffffff;
 	height: 100%;
 	min-height: 100%;
-	background-color: #292d4a;
+	background-color: #2d314b;
 	/*
 	background-image: 
 		url("/assets/images/sample-0010.png"),
@@ -40,7 +41,7 @@ a {
   background-color: #7daedb;
   padding: 16px 24px;
   opacity: 0.8;
-  border-radius: 24px;
+  border-radius: 16px;
   margin-left: 8px;
   margin-right: 8px;
   margin-top: 16px;
@@ -106,15 +107,16 @@ a {
 /* It comes down to the footer */
 
 .footer {
-  overflow: hidden;
+  position: fixed;
   left: 0;
   bottom: 0;
-  background-color: #b9ddff;
+  width: 100%;
+  background-color: #3c668e;
   color: white;
   text-align: center;
   
   opacity: 0.8;
-  border-radius: 24px;
+  border-radius: 8px;
   margin-left: 8px;
   margin-right: 8px;
   margin-bottom: 16px;
